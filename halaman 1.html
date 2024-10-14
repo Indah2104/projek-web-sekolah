@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="style/halaman1.css">
+</head>
+
+<style>
+   
+
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="gambar/logo sekolah.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="" class="home">Home</a></li>
+                    <li><a href="halaman2.html" class="profil">Profil</a></li>
+                    <li><a href="" class="Kesiswaan">Kesiswaan</a></li>
+                    <li><a href="" class="info">Informasi</a></li>
+                    <li><button type="button">Daftar PPDB</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="imageslide">
+            <div id="img_slider">
+            </div>
+
+            <!-- <div class="btn">
+                <button onclick="previous()"> << </button>
+                <button onclick="next()"> >> </button>         
+            </div> -->
+
+            <script>
+                var images = [`slide1.jpeg`,`slide2.jpeg`,`slide3.jpeg`];
+                var indeks = images.length -1;
+                var i = 0;
+        
+                var img_slider = document.getElementById("img_slider");
+                var img = document.createElement("img");
+                img.setAttribute(`src`,"./gambar/"+images[0]);
+                img_slider.appendChild(img);
+        
+                function next(){
+                    if(i<indeks){
+                        i++;
+                    }else if(i==indeks){
+                        i=0;
+                    }
+                    console.log([i]);
+                    img.setAttribute(`src`,"./gambar/"+images[i]);
+                    img_slider.appendChild(img);
+                }
+        
+                function previous(){
+                    if(i>0){
+                        --i;
+                    }else{
+                        i=indeks;
+                    }
+                   console.log([i]);
+                   img.setAttribute(`src`,"./gambar/"+images[i]);
+                   img_slider.appendChild(img);
+                }
+                
+                setInterval(next,500);
+        
+            </script>
+
+
+            <!-- <div class="box2">
+                <div class="dsc" align="center">
+                    <img src="gambar/PIN-removebg-preview (1).png" alt="">
+                    <p>PRESTASI SMK AR - RAHMA</p>
+                    <h3>MEMPEROLEH PROGRAM REVITALISASI SMK NASIONAL</h3>
+                </div>
+
+            </div> -->
+            
+        </div>
+
+        <div class="konten">
+            <div class="konten1">
+                <h2>Religius</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error earum veritatis quam reiciendis dicta?</p>
+            </div>
+            <div class="konten2">
+                <h2>Unggul</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error earum veritatis quam reiciendis dicta?</p>
+            </div>
+            <div class="konten3">
+                <h2>Siap Kerja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error earum veritatis quam reiciendis dicta?</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="isi">
+                <h2>Sambutan Kepala Sekolah</h2>
+                <img src="gambar/KEPSEK.png" alt="" align="center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorem. Iure at asperiores aperiam, quae tempore consectetur fugiat inventore dolorem explicabo illo cum veritatis nostrum vero velit nesciunt maxime esse assumenda corporis est minima perferendis quis commodi? Beatae atque neque ea. Fugiat amet pariatur placeat vel quod molestiae ad beatae voluptas, sunt eaque corporis sit blanditiis illo porro excepturi optio consequatur facilis quae. Facilis vel in quaerat, amet cumque quia ut doloribus at nostrum obcaecati qui deleniti explicabo dolorum, cupiditate vitae error dolore doloremque temporibus eius, fugit nulla beatae repellat numquam? Neque at inventore, molestias quod aliquam non amet. Ipsam est inventore ipsa pariatur hic laboriosam odio in distinctio eum. Obcaecati ab aperiam quia? Impedit, esse dignissimos sequi eligendi unde necessitatibus harum? Quod omnis, soluta libero debitis dicta assumenda commodi minus quia consequuntur accusamus pariatur quibusdam nisi eius facere officiis quas. Saepe maiores laboriosam temporibus vitae molestias ipsa possimus omnis?</p>            
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="alamat">
+                <img src="gambar/home.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, delectus.</p>
+            </div>
+            <div class="telepon">
+                <img src="gambar/whatsapp.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, debitis.</p>
+            </div>
+            <div class="email">
+                <img src="gambar/envelope.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quas?.</p>
+            </div>
+        </div>
+
+        </div>
+    
+
+    
+</body>
+</html>

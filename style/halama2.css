@@ -1,0 +1,366 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    
+
+}
+
+.header{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width:200px;
+    height: 70px;
+    float: left;
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul li { 
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    font-size:22px;
+    padding: 25px;
+    padding-bottom:  0px;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+.profil{
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #E2C88E;
+}
+
+button{
+    background-color: #F9B523;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:22px;
+    margin-top: 0px;
+    border: 0px;
+    
+
+
+}
+
+.konten{
+    width: 100%;
+    height: 600px;
+    background-color: #D6F6DB;
+}
+
+.konten img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: justify;
+    padding-left: 50px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.sejarah{
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 50px;  
+    padding-right: 50px;  
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.konten p{
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.konten h2{
+    color: #195808;
+    font-size: 45px;
+}
+.nav2{
+    width: 100%;
+    height: 100px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+.nav2 h1{
+    color: #195808;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav2 p{
+    font-size: 15px;
+    
+}
+
+.des{
+    width: 100%;
+    height: 500px ;
+    background-color: #FAF8F8;
+    display: flex;
+    justify-content: stretch;
+
+}
+
+.des1{
+    width: 50%;
+    margin-left: 30px;
+   
+
+}
+
+.img1{
+    margin-top: 30px;
+}
+
+.img2{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 10px;
+}
+
+.des .des1 p{
+    color: #659F00;
+
+}
+
+.des1 .isi p{
+    width: 96%;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+.des1 h6{
+    font-size: 30px;
+    color: #195808;
+    margin: 0;
+    padding: 0;
+}
+
+.des2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+
+.des2 div{
+    width: 100%;
+    height: 110px;
+
+}
+
+
+
+.deskripsi1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deskripsi1 .gambar1{
+    width: 15%;
+    background-color: #7ABE45;
+    justify-items: center;
+    align-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.guru{
+    width: 50px;
+    height: 50px;
+}
+
+.pgambar1{
+    width: 50%;
+    margin-left: 10px;
+
+}
+.pgambar2{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.pgambar3{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.des2 h3{
+    color: #195808;
+    margin-top: 0;
+    padding: 0;
+}
+
+.des2 p{
+    color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+
+}
+
+.deskripsi2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deskripsi2 .gambar2{
+    width: 15%;
+    background-color: #7ABE45;
+    justify-items: center;
+    align-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pgambar2 p{
+    color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+
+}
+
+.deskripsi3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pgambar3 p{
+    color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fasilitas{
+    width: 50px;
+    height: 50px;
+}
+
+.deskripsi3 .gambar3{
+    width: 15%;
+    background-color: #7ABE45;
+    justify-items: center;
+    align-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.siswa{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    display: flex;
+    box-sizing: border-box;
+    /* untuk membuat div menjadi fleksibel sesuai ukuran container */
+    /* untuk mengatur tata letak  */
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer div{
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    font-size: 10px;
+    align-content:center;
+    padding-top: 10px;
+    
+
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+
+.alamat{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.telepon{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
